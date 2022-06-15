@@ -17,6 +17,9 @@
 		CB341DD4285A393000F26405 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DD3285A393000F26405 /* ContentView.swift */; };
 		CB341DD6285A39D300F26405 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DD5285A39D200F26405 /* Home.swift */; };
 		CB341DD8285A3A6400F26405 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DD7285A3A6400F26405 /* CustomDatePicker.swift */; };
+		CBE461BC285A6F5300EDEC79 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461BB285A6F5300EDEC79 /* CalenderViewController.swift */; };
+		CBE461BE285A6F6A00EDEC79 /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461BD285A6F6A00EDEC79 /* CalenderCell.swift */; };
+		CBE461C0285A738800EDEC79 /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461BF285A738800EDEC79 /* CalenderHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		CB341DD3285A393000F26405 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB341DD5285A39D200F26405 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		CB341DD7285A3A6400F26405 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		CBE461BB285A6F5300EDEC79 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		CBE461BD285A6F6A00EDEC79 /* CalenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
+		CBE461BF285A738800EDEC79 /* CalenderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +71,13 @@
 			isa = PBXGroup;
 			children = (
 				CB341DD2285A390C00F26405 /* View */,
-				CB341DD1285A390200F26405 /* Model */,
 				81A8A85D2859051700EA5438 /* AppDelegate.swift */,
 				81A8A85F2859051700EA5438 /* SceneDelegate.swift */,
 				81A8A8612859051700EA5438 /* ViewController.swift */,
 				81A8A8632859051700EA5438 /* Main.storyboard */,
+				CBE461BD285A6F6A00EDEC79 /* CalenderCell.swift */,
+				CBE461BB285A6F5300EDEC79 /* CalenderViewController.swift */,
+				CBE461BF285A738800EDEC79 /* CalenderHelper.swift */,
 				81A8A8692859051A00EA5438 /* Assets.xcassets */,
 				81A8A86B2859051A00EA5438 /* LaunchScreen.storyboard */,
 				81A8A86E2859051A00EA5438 /* Info.plist */,
@@ -77,13 +85,6 @@
 				CB341DD3285A393000F26405 /* ContentView.swift */,
 			);
 			path = KWKFinalProject;
-			sourceTree = "<group>";
-		};
-		CB341DD1285A390200F26405 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		CB341DD2285A390C00F26405 /* View */ = {
@@ -167,12 +168,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A8A8622859051700EA5438 /* ViewController.swift in Sources */,
+				CBE461BE285A6F6A00EDEC79 /* CalenderCell.swift in Sources */,
 				CB341DD4285A393000F26405 /* ContentView.swift in Sources */,
 				81A8A85E2859051700EA5438 /* AppDelegate.swift in Sources */,
 				81A8A8682859051700EA5438 /* KWKFinalProject.xcdatamodeld in Sources */,
+				CBE461BC285A6F5300EDEC79 /* CalenderViewController.swift in Sources */,
 				CB341DD6285A39D300F26405 /* Home.swift in Sources */,
 				CB341DD8285A3A6400F26405 /* CustomDatePicker.swift in Sources */,
 				81A8A8602859051700EA5438 /* SceneDelegate.swift in Sources */,
+				CBE461C0285A738800EDEC79 /* CalenderHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
