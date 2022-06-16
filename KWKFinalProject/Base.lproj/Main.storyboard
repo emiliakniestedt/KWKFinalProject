@@ -297,17 +297,102 @@
         <!--GradeViewController-->
         <scene sceneID="3Ib-xu-AqO">
             <objects>
-                <viewController title="GradeViewController" id="WKo-H2-elz" sceneMemberID="viewController">
+                <viewController title="GradeViewController" id="WKo-H2-elz" customClass="GradeViewController" customModule="KWKFinalProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BQ9-6Q-S8n">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Desired Grade" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RND-rP-2AY">
+                                <rect key="frame" x="20" y="196" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="dGK-ms-dvi"/>
+                                    <constraint firstAttribute="width" constant="374" id="ya4-bL-lSb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="desiredGradeTextField:" destination="mfg-hN-gv3" eventType="editingDidEnd" id="SvB-sj-seT"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Final Exam % Worth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CGy-Cq-cvB">
+                                <rect key="frame" x="20" y="272" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="dhW-Bb-sIQ"/>
+                                    <constraint firstAttribute="width" constant="374" id="ilw-bN-rnd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="finalExamTextField:" destination="mfg-hN-gv3" eventType="editingDidEnd" id="Gr3-7y-SJs"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Current Grade" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lz1-xg-7sz">
+                                <rect key="frame" x="20" y="113" width="374" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="374" id="3jr-FN-eE4"/>
+                                    <constraint firstAttribute="height" constant="34" id="PY3-LQ-L2j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="currentGradeTextField:" destination="mfg-hN-gv3" eventType="editingDidEnd" id="Sif-zw-bvy"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeZ-Gu-2Va">
+                                <rect key="frame" x="174" y="398" width="67" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="L3w-fE-ex0"/>
+                                    <constraint firstAttribute="height" constant="43" id="seP-cu-VdN"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <connections>
+                                    <action selector="gradeButton:" destination="WKo-H2-elz" eventType="touchUpInside" id="PiY-vG-69u"/>
+                                    <action selector="gradeNeededButton:" destination="mfg-hN-gv3" eventType="touchUpInside" id="DxI-G0-0JS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85d-Ko-IoP">
+                                <rect key="frame" x="166" y="590" width="83" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="HIW-ZD-U4p"/>
+                                    <constraint firstAttribute="height" constant="42" id="NCo-vV-MP6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ezp-1H-Hfy"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.68627450980000004" green="0.79607843140000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ezp-1H-Hfy" firstAttribute="trailing" secondItem="85d-Ko-IoP" secondAttribute="trailing" constant="165" id="1AC-vN-bLf"/>
+                            <constraint firstItem="CGy-Cq-cvB" firstAttribute="top" secondItem="RND-rP-2AY" secondAttribute="bottom" constant="42" id="2NC-px-w1n"/>
+                            <constraint firstItem="85d-Ko-IoP" firstAttribute="top" secondItem="EeZ-Gu-2Va" secondAttribute="bottom" constant="149" id="5SX-yS-zH8"/>
+                            <constraint firstItem="ezp-1H-Hfy" firstAttribute="trailing" secondItem="RND-rP-2AY" secondAttribute="trailing" constant="20" id="FDb-Iz-86R"/>
+                            <constraint firstItem="ezp-1H-Hfy" firstAttribute="trailing" secondItem="EeZ-Gu-2Va" secondAttribute="trailing" constant="173" id="MO7-f9-rP7"/>
+                            <constraint firstItem="EeZ-Gu-2Va" firstAttribute="top" secondItem="CGy-Cq-cvB" secondAttribute="bottom" constant="92" id="VLI-eU-hPK"/>
+                            <constraint firstItem="lz1-xg-7sz" firstAttribute="leading" secondItem="ezp-1H-Hfy" secondAttribute="leading" constant="20" id="aSk-vd-ltc"/>
+                            <constraint firstItem="85d-Ko-IoP" firstAttribute="leading" secondItem="ezp-1H-Hfy" secondAttribute="leading" constant="166" id="dRY-Zq-epS"/>
+                            <constraint firstItem="RND-rP-2AY" firstAttribute="leading" secondItem="ezp-1H-Hfy" secondAttribute="leading" constant="20" id="daW-sB-0Fz"/>
+                            <constraint firstItem="EeZ-Gu-2Va" firstAttribute="leading" secondItem="ezp-1H-Hfy" secondAttribute="leading" constant="174" id="j86-LK-jEY"/>
+                            <constraint firstItem="CGy-Cq-cvB" firstAttribute="leading" secondItem="ezp-1H-Hfy" secondAttribute="leading" constant="20" id="mBo-Vg-5d2"/>
+                            <constraint firstItem="lz1-xg-7sz" firstAttribute="top" secondItem="ezp-1H-Hfy" secondAttribute="top" constant="69" id="qOA-3s-6pg"/>
+                            <constraint firstItem="ezp-1H-Hfy" firstAttribute="trailing" secondItem="lz1-xg-7sz" secondAttribute="trailing" constant="20" id="qqs-P3-N3u"/>
+                            <constraint firstItem="ezp-1H-Hfy" firstAttribute="trailing" secondItem="CGy-Cq-cvB" secondAttribute="trailing" constant="20" id="va7-pT-bMi"/>
+                            <constraint firstItem="RND-rP-2AY" firstAttribute="top" secondItem="lz1-xg-7sz" secondAttribute="bottom" constant="49" id="vpa-GS-YfP"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="currentGradetextField" destination="lz1-xg-7sz" id="vtl-lx-5g7"/>
+                        <outlet property="desiredGradeTextField" destination="RND-rP-2AY" id="nRc-DI-IKF"/>
+                        <outlet property="finalExamTextField" destination="CGy-Cq-cvB" id="iH8-qy-dnI"/>
+                        <outlet property="gradeLabel" destination="85d-Ko-IoP" id="LAI-Bs-hxe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGf-6B-K0j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="mfg-hN-gv3" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="770" y="513"/>
+            <point key="canvasLocation" x="769.56521739130437" y="512.94642857142856"/>
         </scene>
         <!--HoleViewController-->
         <scene sceneID="ewi-Bs-T3l">

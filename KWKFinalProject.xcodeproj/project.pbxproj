@@ -14,6 +14,7 @@
 		81A8A8682859051700EA5438 /* KWKFinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81A8A8662859051700EA5438 /* KWKFinalProject.xcdatamodeld */; };
 		81A8A86A2859051A00EA5438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81A8A8692859051A00EA5438 /* Assets.xcassets */; };
 		81A8A86D2859051A00EA5438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A8A86B2859051A00EA5438 /* LaunchScreen.storyboard */; };
+		BD3E691A285B7A6D001B68AB /* GradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E6919285B7A6D001B68AB /* GradeViewController.swift */; };
 		CB341DD4285A393000F26405 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DD3285A393000F26405 /* ContentView.swift */; };
 		CB341DD6285A39D300F26405 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DD5285A39D200F26405 /* Home.swift */; };
 		CB341DD8285A3A6400F26405 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DD7285A3A6400F26405 /* CustomDatePicker.swift */; };
@@ -38,6 +39,7 @@
 		81A8A8692859051A00EA5438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81A8A86C2859051A00EA5438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81A8A86E2859051A00EA5438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD3E6919285B7A6D001B68AB /* GradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeViewController.swift; sourceTree = "<group>"; };
 		CB341DD3285A393000F26405 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB341DD5285A39D200F26405 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		CB341DD7285A3A6400F26405 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				CBE461BD285A6F6A00EDEC79 /* CalenderCell.swift */,
 				CBE461BB285A6F5300EDEC79 /* CalenderViewController.swift */,
 				CBE461BF285A738800EDEC79 /* CalenderHelper.swift */,
+				BD3E6919285B7A6D001B68AB /* GradeViewController.swift */,
 				81A8A8692859051A00EA5438 /* Assets.xcassets */,
 				81A8A86B2859051A00EA5438 /* LaunchScreen.storyboard */,
 				81A8A86E2859051A00EA5438 /* Info.plist */,
@@ -204,6 +207,7 @@
 				CBB605F2285B842300F7C28F /* Event.swift in Sources */,
 				CB341DD6285A39D300F26405 /* Home.swift in Sources */,
 				CBE461C4285A927200EDEC79 /* WeeklyViewController.swift in Sources */,
+				BD3E691A285B7A6D001B68AB /* GradeViewController.swift in Sources */,
 				CBE461C9285AB48B00EDEC79 /* Task.swift in Sources */,
 				CB341DD8285A3A6400F26405 /* CustomDatePicker.swift in Sources */,
 				CBE461C7285A9CEB00EDEC79 /* DateValue.swift in Sources */,
