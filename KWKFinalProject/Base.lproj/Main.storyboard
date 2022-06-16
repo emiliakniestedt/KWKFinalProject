@@ -383,6 +383,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="currentGradetextField" destination="lz1-xg-7sz" id="vtl-lx-5g7"/>
+                        <outlet property="desiredGradeTextField" destination="RND-rP-2AY" id="nRc-DI-IKF"/>
+                        <outlet property="finalExamTextField" destination="CGy-Cq-cvB" id="iH8-qy-dnI"/>
                         <outlet property="gradeLabel" destination="85d-Ko-IoP" id="LAI-Bs-hxe"/>
                     </connections>
                 </viewController>

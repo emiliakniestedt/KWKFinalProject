@@ -8,32 +8,34 @@
 import UIKit
 
 class GradeViewController: UIViewController {
-    @IBAction func currentGradeTextField(_ sender: Any) {
-    }
+    @IBOutlet weak var currentGradetextField: UITextField!
     
-    @IBAction func desiredGradeTextField(_ sender: Any) {
-    }
-    @IBAction func finalExamTextField(_ sender: Any) {
-    }
+    @IBOutlet weak var desiredGradeTextField: UITextField!
+    
+    
+    @IBOutlet weak var finalExamTextField: UITextField!
     
     @IBAction func gradeButton(_ sender: Any) {
-        let currentGrade = Double(currentGradeTextField.text!)
+        let currentGrade = Double(currentGradetextField.text!)
         let desiredGrade = Double(desiredGradeTextField.text!)
         let finalWorthPercentage = Double(finalExamTextField.text!)
-        
-
-        
-        
-        
-                    
-        
     
         
         let oneHundredPercent = 100.0
-        let percentageOfGrade = Double(oneHundredPercent - finalWorthPercentage!)/100
+        
+        let percentageOfGrade = Double(oneHundredPercent - finalWorthPercentage!)/100.0
+        
+        
+        
+            
         let gradeNeededOnFinal = (desiredGrade! - (percentageOfGrade + currentGrade!))/finalWorthPercentage
         
+        
+        
+        
+                                      
         gradeLabel.text = "You need \(gradeNeededOnFinal * 100)%"
+                                      
         
     }
     @IBOutlet weak var gradeLabel: UILabel!
