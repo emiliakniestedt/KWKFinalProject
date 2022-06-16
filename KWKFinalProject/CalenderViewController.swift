@@ -17,7 +17,7 @@ class CalenderViewController: UIViewController, UICollectionViewDelegate, UIColl
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var monthLabel: UILabel!
     
-    var selectedDate = Date()
+  
     var totalSquares = [String]()
     
     
