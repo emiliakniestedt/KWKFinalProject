@@ -85,9 +85,9 @@ struct CustomDatePicker: View {
                         .padding(.horizontal)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .background(
-                            Color("Pink")
+                            Color.pink
                                 .opacity(0.5)
-                                .clipShape(Capsule())
+                                .cornerRadius(10)
                         )
                     }
                 }
