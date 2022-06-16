@@ -59,7 +59,8 @@ class WeeklyViewController: UIViewController, UICollectionViewDelegate, UICollec
     }
     
 
-    @IBAction func previousWeek(_ sender: Any) {selectedDate = CalenderHelper().addDays(date: selectedDate, days: -7)
+    @IBAction func previousWeek(_ sender: Any) {
+        selectedDate = CalenderHelper().addDays(date: selectedDate, days: -7)
         setMonthView()
     }
     

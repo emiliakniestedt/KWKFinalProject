@@ -189,7 +189,7 @@
                             <constraint firstItem="0Tc-oo-K8M" firstAttribute="leading" secondItem="9FF-d3-uur" secondAttribute="leading" id="x7d-jO-glm"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Yza-Vn-ggW" colorLabel="IBBuiltInLabel-Gray">
+                    <navigationItem key="navigationItem" title="Monthly Calender" id="Yza-Vn-ggW" colorLabel="IBBuiltInLabel-Gray">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="Aj2-ZT-efA">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="BhH-Rd-ADK">
                                 <rect key="frame" x="302" y="5" width="92" height="34.5"/>
@@ -358,8 +358,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.circle.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="nextWeek:" destination="gLR-Fx-jDo" eventType="touchUpInside" id="9ey-ly-KoH"/>
-                                    <action selector="previousMonth:" destination="gLR-Fx-jDo" eventType="touchUpInside" id="vsK-DQ-zlE"/>
+                                    <action selector="previousWeek:" destination="gLR-Fx-jDo" eventType="touchUpInside" id="4jV-vR-K1h"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gDy-O1-hRf">
@@ -453,8 +452,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.right.circle.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="nextMonth:" destination="gLR-Fx-jDo" eventType="touchUpInside" id="5HA-ap-uGh"/>
-                                    <action selector="previousWeek:" destination="gLR-Fx-jDo" eventType="touchUpInside" id="eN4-Ma-7D4"/>
+                                    <action selector="nextWeek:" destination="gLR-Fx-jDo" eventType="touchUpInside" id="NwT-gw-5KN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -481,7 +479,7 @@
                             <constraint firstItem="b1A-bf-5tb" firstAttribute="centerX" secondItem="LzB-ip-bWB" secondAttribute="centerX" id="tYe-z4-wNy"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="cYP-cz-BBb"/>
+                    <navigationItem key="navigationItem" title="Weekly Calender" id="cYP-cz-BBb"/>
                     <connections>
                         <outlet property="collectionView" destination="I7l-Hp-N3Q" id="b6o-zH-joP"/>
                         <outlet property="monthLabel" destination="b1A-bf-5tb" id="Oum-wY-PdB"/>
@@ -489,7 +487,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hjZ-vi-cF2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-64" y="-572"/>
+            <point key="canvasLocation" x="-65.217391304347828" y="-572.54464285714278"/>
         </scene>
     </scenes>
     <resources>
