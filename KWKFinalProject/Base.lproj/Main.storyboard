@@ -157,16 +157,24 @@
                                     <action selector="nextMonth:" destination="JnL-4g-c9Q" eventType="touchUpInside" id="lCI-9n-Sro"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veG-Ae-FV9">
+                                <rect key="frame" x="138" y="81" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9FF-d3-uur"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="veG-Ae-FV9" firstAttribute="centerX" secondItem="9FF-d3-uur" secondAttribute="centerX" id="8xo-u3-OFF"/>
                             <constraint firstItem="YaC-b7-UCC" firstAttribute="height" secondItem="HvF-Nb-u6L" secondAttribute="height" id="95e-lV-Fak"/>
                             <constraint firstItem="PLf-GR-8oO" firstAttribute="centerY" secondItem="HvF-Nb-u6L" secondAttribute="centerY" id="Blw-wj-uNU"/>
                             <constraint firstItem="HvF-Nb-u6L" firstAttribute="centerX" secondItem="9FF-d3-uur" secondAttribute="centerX" id="CR4-yR-eUL"/>
                             <constraint firstItem="9FF-d3-uur" firstAttribute="trailing" secondItem="PLf-GR-8oO" secondAttribute="trailing" id="Cnm-fg-5Ud"/>
                             <constraint firstItem="HvF-Nb-u6L" firstAttribute="leading" secondItem="YaC-b7-UCC" secondAttribute="trailing" id="Geu-CX-Pxt"/>
                             <constraint firstItem="0Tc-oo-K8M" firstAttribute="top" secondItem="zOE-ie-v2v" secondAttribute="bottom" id="JbG-br-UVX"/>
+                            <constraint firstItem="HvF-Nb-u6L" firstAttribute="top" secondItem="veG-Ae-FV9" secondAttribute="bottom" constant="8" symbolic="YES" id="RLu-FB-EPV"/>
                             <constraint firstItem="zOE-ie-v2v" firstAttribute="leading" secondItem="9FF-d3-uur" secondAttribute="leading" id="SO4-bc-XEd"/>
                             <constraint firstItem="YaC-b7-UCC" firstAttribute="centerY" secondItem="HvF-Nb-u6L" secondAttribute="centerY" id="WGp-Wn-aEb"/>
                             <constraint firstItem="zOE-ie-v2v" firstAttribute="centerX" secondItem="9FF-d3-uur" secondAttribute="centerX" id="XXW-Ao-2mY"/>
@@ -197,11 +205,12 @@
                     <connections>
                         <outlet property="collectionView" destination="0Tc-oo-K8M" id="uJI-uh-QoV"/>
                         <outlet property="monthLabel" destination="HvF-Nb-u6L" id="kre-1p-oZI"/>
+                        <outlet property="yrLabel" destination="veG-Ae-FV9" id="bcm-sY-Up6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GjS-oy-oYd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-725" y="-227"/>
+            <point key="canvasLocation" x="-726.08695652173924" y="-227.00892857142856"/>
         </scene>
         <!--EmailViewController-->
         <scene sceneID="WBh-Xr-h3z">
@@ -488,6 +497,9 @@
         <image name="arrowshape.turn.up.right.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
