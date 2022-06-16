@@ -18,10 +18,18 @@ class CalenderHelper{
     func yearString(date: Date)->String{
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyy"
-        let str = dateFormatter.string(from: date)
+       /* let str = dateFormatter.string(from: date)
         let index = str.index(str.startIndex, offsetBy: 3)
-        let mySubstring = str.prefix(upTo: index)
-        return String(mySubstring)
+        let mySubstring = str.prefix(upTo: index)*/
+        return dateFormatter.string(from: date)
+    }
+    func timeString(date: Date)->String{
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "HH:mm"
+       /* let str = dateFormatter.string(from: date)
+        let index = str.index(str.startIndex, offsetBy: 3)
+        let mySubstring = str.prefix(upTo: index)*/
+        return dateFormatter.string(from: date)
     }
     func daysInMonth(date: Date)->Int{
         let range = calender.range(of: .day, in: .month, for: date)

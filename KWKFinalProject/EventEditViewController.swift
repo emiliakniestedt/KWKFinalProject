@@ -11,13 +11,21 @@ class EventEditViewController: UIViewController {
 
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var nameTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        datePicker.date = selectedDate
         // Do any additional setup after loading the view.
     }
     
     @IBAction func saveAction(_ sender: Any) {
+        let newEvent = Event()
+        newEvent.id = eventsList.count
+        newEvent.name = nameTF.text
+        newEvent.date = datePicker.date
+        
+        eventsList.append(newEvent)
+        navigationController?.popViewController(animated: true)
     }
     
     /*

@@ -111,10 +111,10 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" reuseIdentifier="calCell" id="L4K-r6-tlN" customClass="CalenderCell" customModule="KWKFinalProject" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" reuseIdentifier="calCell" id="L4K-r6-tlN" customClass="CalenderCell" customModule="KWKFinalProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="HZi-SL-lai">
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="HZi-SL-lai">
                                             <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -210,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GjS-oy-oYd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-726.08695652173924" y="-227.00892857142856"/>
+            <point key="canvasLocation" x="-787" y="-331"/>
         </scene>
         <!--EmailViewController-->
         <scene sceneID="WBh-Xr-h3z">
@@ -459,7 +459,7 @@
                                 <rect key="frame" x="0.0" y="271.5" width="414" height="590.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="74" id="Ppv-6y-6pT" customClass="EventCell" customModule="KWKFinalProject" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellID" rowHeight="74" id="Ppv-6y-6pT" customClass="EventCell" customModule="KWKFinalProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ppv-6y-6pT" id="nhA-oa-1Ji">
@@ -526,6 +526,7 @@
                     <connections>
                         <outlet property="collectionView" destination="I7l-Hp-N3Q" id="b6o-zH-joP"/>
                         <outlet property="monthLabel" destination="b1A-bf-5tb" id="Oum-wY-PdB"/>
+                        <outlet property="tableView" destination="RXR-cn-idF" id="1PS-ah-h9k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hjZ-vi-cF2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -540,13 +541,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mad-gw-rSY">
-                                <rect key="frame" x="62" y="110" width="290" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mad-gw-rSY">
+                                <rect key="frame" x="20.5" y="110" width="373" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="2Gg-CV-bBJ">
-                                <rect key="frame" x="62" y="174" width="290" height="162"/>
+                                <rect key="frame" x="21" y="174" width="373" height="162"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="2jM-qC-wKu"/>
                                 </constraints>
@@ -555,7 +556,7 @@
                         <viewLayoutGuide key="safeArea" id="86o-vi-kzc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Mad-gw-rSY" firstAttribute="width" secondItem="AQy-32-jzw" secondAttribute="width" multiplier="0.7" id="5OI-6M-e9u"/>
+                            <constraint firstItem="Mad-gw-rSY" firstAttribute="width" secondItem="AQy-32-jzw" secondAttribute="width" multiplier="0.9" id="5OI-6M-e9u"/>
                             <constraint firstItem="2Gg-CV-bBJ" firstAttribute="centerX" secondItem="Mad-gw-rSY" secondAttribute="centerX" id="AGt-PH-r9Y"/>
                             <constraint firstItem="2Gg-CV-bBJ" firstAttribute="top" secondItem="Mad-gw-rSY" secondAttribute="bottom" constant="30" id="Dfr-84-0dn"/>
                             <constraint firstItem="Mad-gw-rSY" firstAttribute="top" secondItem="86o-vi-kzc" secondAttribute="top" constant="22" id="MaE-hF-l4a"/>
