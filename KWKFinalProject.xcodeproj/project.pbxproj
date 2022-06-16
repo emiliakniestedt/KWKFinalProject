@@ -18,6 +18,9 @@
 		CB341DD4285A393000F26405 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DD3285A393000F26405 /* ContentView.swift */; };
 		CB341DD6285A39D300F26405 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DD5285A39D200F26405 /* Home.swift */; };
 		CB341DD8285A3A6400F26405 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB341DD7285A3A6400F26405 /* CustomDatePicker.swift */; };
+		CBB605EE285B82AC00F7C28F /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB605ED285B82AC00F7C28F /* EventEditViewController.swift */; };
+		CBB605F0285B82BF00F7C28F /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB605EF285B82BF00F7C28F /* EventCell.swift */; };
+		CBB605F2285B842300F7C28F /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB605F1285B842300F7C28F /* Event.swift */; };
 		CBE461BC285A6F5300EDEC79 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461BB285A6F5300EDEC79 /* CalenderViewController.swift */; };
 		CBE461BE285A6F6A00EDEC79 /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461BD285A6F6A00EDEC79 /* CalenderCell.swift */; };
 		CBE461C0285A738800EDEC79 /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461BF285A738800EDEC79 /* CalenderHelper.swift */; };
@@ -40,6 +43,9 @@
 		CB341DD3285A393000F26405 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB341DD5285A39D200F26405 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		CB341DD7285A3A6400F26405 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		CBB605ED285B82AC00F7C28F /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
+		CBB605EF285B82BF00F7C28F /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		CBB605F1285B842300F7C28F /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		CBE461BB285A6F5300EDEC79 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 		CBE461BD285A6F6A00EDEC79 /* CalenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
 		CBE461BF285A738800EDEC79 /* CalenderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderHelper.swift; sourceTree = "<group>"; };
@@ -84,6 +90,9 @@
 				81A8A85F2859051700EA5438 /* SceneDelegate.swift */,
 				81A8A8612859051700EA5438 /* ViewController.swift */,
 				81A8A8632859051700EA5438 /* Main.storyboard */,
+				CBB605F1285B842300F7C28F /* Event.swift */,
+				CBB605ED285B82AC00F7C28F /* EventEditViewController.swift */,
+				CBB605EF285B82BF00F7C28F /* EventCell.swift */,
 				CBE461C3285A927200EDEC79 /* WeeklyViewController.swift */,
 				CBE461BD285A6F6A00EDEC79 /* CalenderCell.swift */,
 				CBE461BB285A6F5300EDEC79 /* CalenderViewController.swift */,
@@ -188,11 +197,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A8A8622859051700EA5438 /* ViewController.swift in Sources */,
+				CBB605EE285B82AC00F7C28F /* EventEditViewController.swift in Sources */,
 				CBE461BE285A6F6A00EDEC79 /* CalenderCell.swift in Sources */,
 				CB341DD4285A393000F26405 /* ContentView.swift in Sources */,
 				81A8A85E2859051700EA5438 /* AppDelegate.swift in Sources */,
 				81A8A8682859051700EA5438 /* KWKFinalProject.xcdatamodeld in Sources */,
 				CBE461BC285A6F5300EDEC79 /* CalenderViewController.swift in Sources */,
+				CBB605F0285B82BF00F7C28F /* EventCell.swift in Sources */,
+				CBB605F2285B842300F7C28F /* Event.swift in Sources */,
 				CB341DD6285A39D300F26405 /* Home.swift in Sources */,
 				CBE461C4285A927200EDEC79 /* WeeklyViewController.swift in Sources */,
 				BD3E691A285B7A6D001B68AB /* GradeViewController.swift in Sources */,

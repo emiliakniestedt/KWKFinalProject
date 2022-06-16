@@ -13,6 +13,7 @@ class CalenderViewController: UIViewController, UICollectionViewDelegate, UIColl
     
     
 
+    @IBOutlet weak var yrLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var monthLabel: UILabel!
     
@@ -49,7 +50,11 @@ class CalenderViewController: UIViewController, UICollectionViewDelegate, UIColl
             }
             count+=1
         }
-        monthLabel.text=CalenderHelper().monthString(date: selectedDate) + " " + CalenderHelper().yearString(date: selectedDate)
+        let monthstr = CalenderHelper().monthString(date: selectedDate)
+        let index = monthstr.index(monthstr.startIndex, offsetBy: 3)
+        let mySubstring = monthstr.prefix(upTo: index)
+        monthLabel.text=String(mySubstring)
+        yrLabel.text=CalenderHelper().yearString(date: selectedDate)
         collectionView.reloadData()
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
