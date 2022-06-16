@@ -20,6 +20,8 @@
 		CBE461BC285A6F5300EDEC79 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461BB285A6F5300EDEC79 /* CalenderViewController.swift */; };
 		CBE461BE285A6F6A00EDEC79 /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461BD285A6F6A00EDEC79 /* CalenderCell.swift */; };
 		CBE461C0285A738800EDEC79 /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461BF285A738800EDEC79 /* CalenderHelper.swift */; };
+		CBE461C4285A927200EDEC79 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461C3285A927200EDEC79 /* WeeklyViewController.swift */; };
+		CBE461C7285A9CEB00EDEC79 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461C6285A9CEB00EDEC79 /* DateValue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		CBE461BB285A6F5300EDEC79 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 		CBE461BD285A6F6A00EDEC79 /* CalenderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
 		CBE461BF285A738800EDEC79 /* CalenderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderHelper.swift; sourceTree = "<group>"; };
+		CBE461C3285A927200EDEC79 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		CBE461C6285A9CEB00EDEC79 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +74,13 @@
 		81A8A85C2859051700EA5438 /* KWKFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				CBE461C5285A9CCF00EDEC79 /* Model */,
 				CB341DD2285A390C00F26405 /* View */,
 				81A8A85D2859051700EA5438 /* AppDelegate.swift */,
 				81A8A85F2859051700EA5438 /* SceneDelegate.swift */,
 				81A8A8612859051700EA5438 /* ViewController.swift */,
 				81A8A8632859051700EA5438 /* Main.storyboard */,
+				CBE461C3285A927200EDEC79 /* WeeklyViewController.swift */,
 				CBE461BD285A6F6A00EDEC79 /* CalenderCell.swift */,
 				CBE461BB285A6F5300EDEC79 /* CalenderViewController.swift */,
 				CBE461BF285A738800EDEC79 /* CalenderHelper.swift */,
@@ -94,6 +100,14 @@
 				CB341DD7285A3A6400F26405 /* CustomDatePicker.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CBE461C5285A9CCF00EDEC79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBE461C6285A9CEB00EDEC79 /* DateValue.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +188,9 @@
 				81A8A8682859051700EA5438 /* KWKFinalProject.xcdatamodeld in Sources */,
 				CBE461BC285A6F5300EDEC79 /* CalenderViewController.swift in Sources */,
 				CB341DD6285A39D300F26405 /* Home.swift in Sources */,
+				CBE461C4285A927200EDEC79 /* WeeklyViewController.swift in Sources */,
 				CB341DD8285A3A6400F26405 /* CustomDatePicker.swift in Sources */,
+				CBE461C7285A9CEB00EDEC79 /* DateValue.swift in Sources */,
 				81A8A8602859051700EA5438 /* SceneDelegate.swift in Sources */,
 				CBE461C0285A738800EDEC79 /* CalenderHelper.swift in Sources */,
 			);
