@@ -22,6 +22,7 @@
 		CBE461C0285A738800EDEC79 /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461BF285A738800EDEC79 /* CalenderHelper.swift */; };
 		CBE461C4285A927200EDEC79 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461C3285A927200EDEC79 /* WeeklyViewController.swift */; };
 		CBE461C7285A9CEB00EDEC79 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461C6285A9CEB00EDEC79 /* DateValue.swift */; };
+		CBE461C9285AB48B00EDEC79 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE461C8285AB48A00EDEC79 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		CBE461BF285A738800EDEC79 /* CalenderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderHelper.swift; sourceTree = "<group>"; };
 		CBE461C3285A927200EDEC79 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
 		CBE461C6285A9CEB00EDEC79 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		CBE461C8285AB48A00EDEC79 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				CBE461C6285A9CEB00EDEC79 /* DateValue.swift */,
+				CBE461C8285AB48A00EDEC79 /* Task.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				CBE461BC285A6F5300EDEC79 /* CalenderViewController.swift in Sources */,
 				CB341DD6285A39D300F26405 /* Home.swift in Sources */,
 				CBE461C4285A927200EDEC79 /* WeeklyViewController.swift in Sources */,
+				CBE461C9285AB48B00EDEC79 /* Task.swift in Sources */,
 				CB341DD8285A3A6400F26405 /* CustomDatePicker.swift in Sources */,
 				CBE461C7285A9CEB00EDEC79 /* DateValue.swift in Sources */,
 				81A8A8602859051700EA5438 /* SceneDelegate.swift in Sources */,
