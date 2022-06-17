@@ -28,7 +28,7 @@ class GradeViewController: UIViewController {
         
         
             
-        let gradeNeededOnFinal = (desiredGrade! - (percentageOfGrade + currentGrade!))/finalWorthPercentage
+      let gradeNeededOnFinal = (desiredGrade! - (percentageOfGrade + currentGrade!))/(finalWorthPercentage ?? <#default value#>)
         
         
         
