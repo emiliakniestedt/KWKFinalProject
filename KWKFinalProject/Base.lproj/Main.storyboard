@@ -103,7 +103,7 @@
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="0Tc-oo-K8M">
                                 <rect key="frame" x="0.0" y="173" width="414" height="689"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.8549891114" green="0.88672798870000002" blue="0.86274236439999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8Jo-pZ-NoD">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -165,7 +165,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9FF-d3-uur"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.73734217879999997" green="0.76508349180000002" blue="0.74509578939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="veG-Ae-FV9" firstAttribute="centerX" secondItem="9FF-d3-uur" secondAttribute="centerX" id="8xo-u3-OFF"/>
                             <constraint firstItem="YaC-b7-UCC" firstAttribute="height" secondItem="HvF-Nb-u6L" secondAttribute="height" id="95e-lV-Fak"/>
@@ -550,7 +550,7 @@
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="I7l-Hp-N3Q">
                                 <rect key="frame" x="0.0" y="173" width="414" height="98.5"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.8549891114" green="0.88672798870000002" blue="0.86274236439999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="N8p-rk-Fqy">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -597,7 +597,9 @@
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RXR-cn-idF">
                                 <rect key="frame" x="0.0" y="271.5" width="414" height="590.5"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.73734217879999997" green="0.76508349180000002" blue="0.74509578939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexColor" red="0.73734217879999997" green="0.76508349180000002" blue="0.74509578939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="sectionIndexBackgroundColor" red="0.70989114050000002" green="0.73763221499999998" blue="0.71764481069999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellID" rowHeight="74" id="Ppv-6y-6pT" customClass="EventCell" customModule="KWKFinalProject" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="74"/>
@@ -618,6 +620,7 @@
                                                 <constraint firstItem="rNF-ka-JMz" firstAttribute="centerY" secondItem="nhA-oa-1Ji" secondAttribute="centerY" id="xZ5-mC-5Nu"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.8549891114" green="0.88672798870000002" blue="0.86274236439999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
                                             <outlet property="eventLabel" destination="rNF-ka-JMz" id="40u-Ba-c4y"/>
                                         </connections>
@@ -630,7 +633,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LzB-ip-bWB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.73734217879999997" green="0.76508349180000002" blue="0.74509578939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="I7l-Hp-N3Q" firstAttribute="leading" secondItem="LzB-ip-bWB" secondAttribute="leading" id="1sZ-eb-RCQ"/>
                             <constraint firstItem="b1A-bf-5tb" firstAttribute="top" secondItem="LzB-ip-bWB" secondAttribute="top" id="2e5-E1-J4B"/>
