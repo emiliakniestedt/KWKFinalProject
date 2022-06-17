@@ -288,25 +288,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gj-Va-8gP">
-                                <rect key="frame" x="89" y="78" width="236" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="My Ability">
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            <integer key="NSUnderline" value="1"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKI-fn-IOt">
                                 <rect key="frame" x="32" y="135" width="160" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="ToDo"/>
+                                <buttonConfiguration key="configuration" style="filled" title="ToDo">
+                                    <color key="baseForegroundColor" red="0.5" green="0.093718870964393963" blue="0.1656371421892931" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.94773729220000003" green="0.87282648510000005" blue="0.88172216380000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="buz-z8-91U" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="932-f1-BtT"/>
                                 </connections>
@@ -315,7 +304,10 @@
                                 <rect key="frame" x="32" y="493" width="160" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Email Template"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Email Template">
+                                    <color key="baseForegroundColor" red="0.5" green="0.093718870960000006" blue="0.1656371422" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.84777969119999996" green="0.88576811550000001" blue="0.9098081589" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="FB0-QY-uAp" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="OVj-uR-hpU"/>
                                 </connections>
@@ -324,7 +316,10 @@
                                 <rect key="frame" x="224" y="135" width="160" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Tree Hole"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Tree Hole">
+                                    <color key="baseForegroundColor" red="0.5" green="0.093718870960000006" blue="0.1656371422" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.95604723690000004" green="0.82644712919999996" blue="0.87843549249999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="Y0c-Gr-qn0" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Tej-zd-a2s"/>
                                 </connections>
@@ -333,14 +328,21 @@
                                 <rect key="frame" x="224" y="493" width="160" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Grade Tracker"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Grade Tracker">
+                                    <color key="baseForegroundColor" red="0.5" green="0.093718870960000006" blue="0.1656371422" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.75467842819999997" green="0.82598620649999999" blue="0.89412838220000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="WKo-H2-elz" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="NhV-Cb-TL2"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wireframe" translatesAutoresizingMaskIntoConstraints="NO" id="Tt1-NG-O9i">
+                                <rect key="frame" x="87" y="44" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.98342233899999998" green="0.93805450199999996" blue="0.89803212880000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -728,6 +730,7 @@
     <resources>
         <image name="arrowshape.turn.up.left.circle.fill" catalog="system" width="128" height="121"/>
         <image name="arrowshape.turn.up.right.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="wireframe" width="478" height="432"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
