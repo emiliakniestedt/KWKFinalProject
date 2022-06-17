@@ -405,30 +405,20 @@
                                     <action selector="currentGradeTextField:" destination="mfg-hN-gv3" eventType="editingDidEnd" id="Sif-zw-bvy"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeZ-Gu-2Va">
-                                <rect key="frame" x="174" y="398" width="67" height="43"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeZ-Gu-2Va">
+                                <rect key="frame" x="155" y="398" width="110" height="43"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="67" id="L3w-fE-ex0"/>
                                     <constraint firstAttribute="height" constant="43" id="seP-cu-VdN"/>
                                 </constraints>
                                 <color key="tintColor" red="0.24187230512368785" green="0.31351065353099877" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Calculate!"/>
                                 <connections>
                                     <action selector="gradeButton:" destination="WKo-H2-elz" eventType="touchUpInside" id="PiY-vG-69u"/>
                                     <action selector="gradeNeededButton:" destination="mfg-hN-gv3" eventType="touchUpInside" id="DxI-G0-0JS"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85d-Ko-IoP">
-                                <rect key="frame" x="166" y="590" width="83" height="42"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="83" id="HIW-ZD-U4p"/>
-                                    <constraint firstAttribute="height" constant="42" id="NCo-vV-MP6"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9d-Tl-twt">
                                 <rect key="frame" x="112" y="774" width="190" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -439,6 +429,16 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="yLd-Ni-G4C"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Let's See!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85d-Ko-IoP">
+                                <rect key="frame" x="141" y="585" width="211" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="83" id="HIW-ZD-U4p"/>
+                                    <constraint firstAttribute="height" constant="42" id="NCo-vV-MP6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ezp-1H-Hfy"/>
                         <color key="backgroundColor" red="0.68627450980000004" green="0.79607843140000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
