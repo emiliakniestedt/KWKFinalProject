@@ -28,13 +28,13 @@ class GradeViewController: UIViewController {
         
         
             
-      let gradeNeededOnFinal = (desiredGrade! - (percentageOfGrade + currentGrade!))/(finalWorthPercentage ?? <#default value#>)
+   //   let gradeNeededOnFinal = (desiredGrade! - (percentageOfGrade + currentGrade!))/(finalWorthPercentage ?? default grade)
         
         
         
         
                                       
-        gradeLabel.text = "You need \(gradeNeededOnFinal * 100)%"
+ //       gradeLabel.text = "You need \(gradeNeededOnFinal * 100)%"
                                       
         
     }

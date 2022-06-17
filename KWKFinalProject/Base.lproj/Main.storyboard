@@ -429,6 +429,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9d-Tl-twt">
+                                <rect key="frame" x="112" y="774" width="190" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.24187230509999999" green="0.31351065350000001" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Back To Main Page"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="yLd-Ni-G4C"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ezp-1H-Hfy"/>
                         <color key="backgroundColor" red="0.68627450980000004" green="0.79607843140000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -767,7 +777,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="emx-3c-l0q"/>
+        <segue reference="yLd-Ni-G4C"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="a" width="600" height="800"/>
