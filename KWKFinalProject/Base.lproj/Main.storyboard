@@ -492,12 +492,6 @@
                                 <rect key="frame" x="48" y="395" width="318" height="477"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Worries go away!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jHl-oj-s0u">
-                                <rect key="frame" x="145" y="630" width="125" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2w9-FU-yUh">
                                 <rect key="frame" x="112" y="800" width="190" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -508,6 +502,12 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="emx-3c-l0q"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Worries go away!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jHl-oj-s0u">
+                                <rect key="frame" x="145" y="630" width="125" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1ap-Vf-ySh"/>
                         <color key="backgroundColor" red="0.32949909570000002" green="0.34124949570000002" blue="0.33725458380000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -777,7 +777,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yLd-Ni-G4C"/>
+        <segue reference="emx-3c-l0q"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="a" width="600" height="800"/>
